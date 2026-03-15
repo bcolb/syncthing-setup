@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Syncthing
+syncthing-info.txt
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Upload helpers (local only)
+START_HERE.md
+UPLOAD_INSTRUCTIONS.md
+upload.sh

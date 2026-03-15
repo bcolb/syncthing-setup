@@ -1,0 +1,206 @@
+// Syncthing Ignore Patterns
+// Copy these patterns to your folder's "Ignore Patterns" tab
+// Lines starting with // are comments
+
+// Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist/
+build/
+*.whl
+.venv/
+venv/
+env/
+ENV/
+*.virtualenv
+.pytest_cache/
+.mypy_cache/
+.tox/
+
+// Node.js / JavaScript
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.npm/
+.yarn/
+.next/
+.nuxt/
+.cache/
+package-lock.json
+yarn.lock
+
+// macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+// Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+// Linux
+*~
+.directory
+.Trash-*
+
+// IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.project
+.classpath
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+.cproject
+.autotools
+.sublime-workspace
+.sublime-project
+
+// Git
+.git/
+.gitignore
+.gitattributes
+.gitmodules
+
+// Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+// Databases (don't sync running databases!)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+// Compiled files
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.class
+*.pyc
+
+// Archives (usually large)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bz2
+*.xz
+*.dmg
+*.iso
+*.jar
+*.war
+
+// Logs
+*.log
+logs/
+log/
+*.log.*
+
+// Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*.backup
+*~
+
+// Build artifacts
+build/
+dist/
+target/
+out/
+bin/
+obj/
+
+// Package managers
+.bundle/
+vendor/bundle/
+composer.phar
+Gemfile.lock
+
+// Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+// Environment files
+.env
+.env.local
+.env.*.local
+.envrc
+
+// Dependencies
+bower_components/
+jspm_packages/
+
+// Testing
+coverage/
+.nyc_output/
+.coverage
+htmlcov/
+
+// IDE specific
+.vscode/
+.idea/
+*.iml
+
+// Media (usually large, use dedicated sync)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+*.flac
+
+// Images (large files)
+*.psd
+*.ai
+*.sketch
+
+// Specific to certain projects - adjust as needed
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+.git/
+
+// NOTE: To use these patterns:
+// 1. Open Syncthing web UI
+// 2. Edit your folder
+// 3. Go to "Ignore Patterns" tab
+// 4. Copy and paste the patterns you need
+// 5. Remove or comment out (add //) patterns you don't need
