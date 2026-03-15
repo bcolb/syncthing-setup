@@ -383,21 +383,21 @@ syncthing --home=/path/to/config
 
 ### Do's
 
-✅ Start with one folder, verify it works
-✅ Use ignore patterns liberally  
-✅ Enable file versioning
-✅ Set meaningful device and folder names
-✅ Monitor sync conflicts regularly
-✅ Keep Syncthing updated: `brew upgrade syncthing`
+- Start with one folder, verify it works
+- Use ignore patterns liberally  
+- Enable file versioning
+- Set meaningful device and folder names
+- Monitor sync conflicts regularly
+- Keep Syncthing updated: `brew upgrade syncthing`
 
 ### Don'ts
 
-❌ Don't sync system folders
-❌ Don't sync running databases
-❌ Don't sync very large files (use different tool)
-❌ Don't sync Downloads folder
-❌ Don't disable versioning on important folders
-❌ Don't sync .git folders if using Git already
+- Don't sync system folders
+- Don't sync running databases
+- Don't sync very large files (use different tool)
+- Don't sync Downloads folder
+- Don't disable versioning on important folders
+- Don't sync .git folders if using Git already
 
 ### Workflow Tips
 
@@ -455,11 +455,11 @@ Web UI shows:
 
 ## Next Steps
 
-1. ✅ Install Syncthing on all devices
-2. ✅ Connect devices
-3. ✅ Share folders
-4. ✅ Apply ignore patterns
-5. ✅ Enable versioning
+1. Install Syncthing on all devices 
+2. Connect devices
+3. Share folders
+4. Apply ignore patterns
+5. Enable versioning
 6. Test the sync
 7. Monitor for conflicts
 8. Enjoy automatic file sync!
