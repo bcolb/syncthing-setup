@@ -128,6 +128,10 @@ read -p "Sync ~/scripts folder? (y/n) " -n 1 -r
 echo
 SYNC_SCRIPTS=$REPLY
 
+read -p "Sync ~/workspace folder? (y/n) " -n 1 -r
+echo
+SYNC_WORKSPACE=$REPLY
+
 echo ""
 echo -e "${GREEN}Setup Complete!${NC}"
 echo ""
@@ -166,6 +170,9 @@ if [[ $SYNC_WORK =~ ^[Yy]$ ]]; then
 fi
 if [[ $SYNC_SCRIPTS =~ ^[Yy]$ ]]; then
     echo "  - ~/scripts" >> ~/syncthing-info.txt
+fi
+if [[ $SYNC_WORKSPACE =~ ^[Yy]$ ]]; then
+    echo "  - ~/workspace" >> ~/syncthing-info.txt
 fi
 
 echo ""

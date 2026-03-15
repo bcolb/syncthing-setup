@@ -21,9 +21,11 @@ Syncthing is a continuous file synchronization program that:
 - Works across platforms (macOS, Linux, Windows)
 - Is free and open source
 
-Perfect for keeping your `~/projects` folder synchronized across multiple Macs.
+Perfect for keeping your `~/projects` or `~/workspace` folders synchronized across multiple Macs.
 
 ## Quick Start
+
+See GUIDE.md for full setup instructions.
 
 ### On Each Mac
 
